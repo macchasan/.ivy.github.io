@@ -1,0 +1,100 @@
+/* 全体の背景とフォント設定 */
+body {
+  background-color: #fff0f5;
+  /* 薄いピンク */
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* コンテンツ全体に余白 */
+main {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+  background-color: #ffe4ec;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #f9c5d1;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: #e75480;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #e75480;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* セクション共通 */
+section {
+  background-color: #fffafa;
+  margin: 40px 0;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(255, 192, 203, 0.2);
+}
+
+/* ギャラリーのYouTube埋め込みも調整 */
+.gallery iframe {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+}
+
+/* フッター */
+footer {
+  background-color: #ffe4ec;
+  text-align: center;
+  padding: 20px;
+  color: #888;
+  font-size: 0.9em;
+  margin-top: 60px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+footer a {
+  color: #e75480;
+  text-decoration: none;
+  margin: 0 8px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+.hero img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(255, 192, 203, 0.3);
+}
